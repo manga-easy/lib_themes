@@ -8,3 +8,4 @@ export 'src/theme/theme_dark_bee.dart';
 export 'src/theme/theme_light.dart';
 export 'src/theme/theme_sailor_blue.dart';
 export 'src/theme/theme_twilight.dart';
+export 'src/theme_service.dart';
