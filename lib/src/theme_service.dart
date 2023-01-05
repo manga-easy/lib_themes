@@ -15,7 +15,7 @@ class ThemeService extends ChangeNotifier {
 
   static ThemeApp get of => ThemeService().tema;
 
-  Future<void> changeTheme([int? value]) async {
+  void changeTheme([int? value]) {
     index = Themes.values[value ?? 0];
 
     notifyListeners();
