@@ -28,17 +28,19 @@ class ThemeService extends ChangeNotifier {
       return ThemeData.dark().copyWith(
         scaffoldBackgroundColor: temaL.backgroundColor,
         primaryColor: temaL.primaryColor,
-        backgroundColor: temaL.backgroundColor,
         textTheme: temaL.textTheme,
-        colorScheme: temaL.colorScheme,
+        colorScheme: temaL.colorScheme.copyWith(
+          background: temaL.backgroundColor,
+        ),
       );
     }
     return ThemeData.light().copyWith(
       scaffoldBackgroundColor: temaL.backgroundColor,
       primaryColor: temaL.primaryColor,
-      backgroundColor: temaL.backgroundColor,
       textTheme: temaL.textTheme,
-      colorScheme: temaL.colorScheme,
+      colorScheme: temaL.colorScheme.copyWith(
+        background: temaL.backgroundColor,
+      ),
     );
   }
 }
