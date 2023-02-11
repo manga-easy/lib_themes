@@ -4,9 +4,6 @@ import 'package:manga_easy_themes/src/theme/theme_abstract.dart';
 
 class ThemeAppBlackDiamond implements ThemeApp {
   @override
-  Color get primaryColor => Colors.red;
-
-  @override
   TextTheme get textTheme => GoogleFonts.robotoCondensedTextTheme(
         ThemeData.dark().textTheme,
       );
@@ -17,24 +14,25 @@ class ThemeAppBlackDiamond implements ThemeApp {
         primary: Colors.white,
       )
       .copyWith(secondary: Colors.black);
-
-  @override
-  Color get backgroundColor => Colors.black;
-
   @override
   bool get isDarkTema => true;
-
+  // backgroudColor
   @override
-  Color get selectColor => Colors.grey.shade700;
-
-  @override
-  Color get selectText => Colors.grey.shade900;
-
-  @override
-  Color get primaryText => Colors.white;
-
+  Color get backgroundColor => Colors.black;
   @override
   Color get backgroundText => Colors.white;
+  @override
+  Color get backgroundIcon => Colors.white;
+  // primaryColor
+  @override
+  Color get primaryColor => Colors.red;
+  @override
+  Color get primaryText => Colors.white;
+  //Select Color
+  @override
+  Color get selectColor => Colors.grey.shade700;
+  @override
+  Color get selectText => Colors.grey.shade900;
 
   @override
   BorderRadiusGeometry get borderRadius => BorderRadius.circular(20);

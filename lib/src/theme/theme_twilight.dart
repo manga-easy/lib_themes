@@ -4,9 +4,6 @@ import 'package:manga_easy_themes/src/theme/theme_abstract.dart';
 
 class ThemeTwilight implements ThemeApp {
   @override
-  Color get primaryColor => const Color(0xff313067);
-
-  @override
   TextTheme get textTheme => GoogleFonts.robotoCondensedTextTheme(
         ThemeData.dark().textTheme,
       );
@@ -14,27 +11,30 @@ class ThemeTwilight implements ThemeApp {
   @override
   ColorScheme get colorScheme => const ColorScheme.dark()
       .copyWith(
-        primary: Colors.red,
+        primary: const Color(0xffDD4E85),
       )
       .copyWith(secondary: Colors.black);
 
   @override
-  Color get backgroundColor => const Color(0xff030423);
-
-  @override
   bool get isDarkTema => true;
-
+  //Background Color
   @override
-  Color get selectColor => const Color(0xfffe516d);
-
+  Color get backgroundColor => const Color(0xff16151D);
   @override
-  Color get selectText => const Color(0xff1a1941);
-
+  Color get backgroundText => Colors.white;
   @override
-  Color get primaryText => const Color(0xfffe516d);
-
+  Color get backgroundIcon => const Color(0xffDD4E85);
+  //Primary Color
   @override
-  Color get backgroundText => const Color(0xfffe516d);
+  Color get primaryColor => const Color(0xff2A1F32);
+  @override
+  Color get primaryText => const Color(0xffDD4E85);
+  //Primary Color
+  @override
+  Color get selectColor => const Color(0xff652F50);
+  @override
+  Color get selectText => const Color(0xff2A1F32);
+
   @override
   BorderRadiusGeometry get borderRadius => BorderRadius.circular(20);
 }

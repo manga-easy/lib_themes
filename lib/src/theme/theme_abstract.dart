@@ -16,6 +16,7 @@ abstract class ThemeApp {
   abstract final Color selectColor;
   abstract final Color selectText;
   abstract final Color primaryText;
+  abstract final Color backgroundIcon;
   abstract final BorderRadiusGeometry borderRadius;
   final textTheme = GoogleFonts.robotoCondensedTextTheme(
     ThemeData.dark().textTheme,
