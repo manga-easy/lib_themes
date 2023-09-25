@@ -1,4 +1,4 @@
-library manga_easy_themes;
+library themes;
 
 export 'src/theme_enum.dart';
 export 'src/theme/theme_abstract.dart';

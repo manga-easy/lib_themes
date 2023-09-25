@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:manga_easy_themes/src/theme/theme_black_diamond.dart';
-import 'package:manga_easy_themes/src/theme/theme_dark.dart';
-import 'package:manga_easy_themes/src/theme/theme_dark_bee.dart';
-import 'package:manga_easy_themes/src/theme/theme_light.dart';
-import 'package:manga_easy_themes/src/theme/theme_sailor_blue.dart';
-import 'package:manga_easy_themes/src/theme/theme_twilight.dart';
-import 'package:manga_easy_themes/src/theme_enum.dart';
+import 'package:themes/src/theme/theme_black_diamond.dart';
+import 'package:themes/src/theme/theme_dark.dart';
+import 'package:themes/src/theme/theme_dark_bee.dart';
+import 'package:themes/src/theme/theme_light.dart';
+import 'package:themes/src/theme/theme_sailor_blue.dart';
+import 'package:themes/src/theme/theme_twilight.dart';
+import 'package:themes/src/theme_enum.dart';
 
 abstract class ThemeApp {
   final bool isDarkTema = false;

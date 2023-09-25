@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:manga_easy_themes/src/theme/theme_abstract.dart';
+import 'package:themes/src/theme/theme_abstract.dart';
 
 class ThemeAppSailorBlue implements ThemeApp {
   @override
