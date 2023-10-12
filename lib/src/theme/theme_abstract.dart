@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:themes/src/theme/theme_black_diamond.dart';
 import 'package:themes/src/theme/theme_dark.dart';
 import 'package:themes/src/theme/theme_dark_bee.dart';
+import 'package:themes/src/theme/theme_halloween.dart';
 import 'package:themes/src/theme/theme_light.dart';
 import 'package:themes/src/theme/theme_sailor_blue.dart';
 import 'package:themes/src/theme/theme_twilight.dart';
@@ -38,6 +39,8 @@ abstract class ThemeApp {
         return ThemeTwilight();
       case Themes.sailorBlue:
         return ThemeAppSailorBlue();
+      case Themes.halloween:
+        return ThemeHallowneen();
       default:
         return ThemeAppDark();
     }
